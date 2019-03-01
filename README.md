@@ -299,7 +299,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/gorilla/mux"
+	"github.com/Beeketing/mux"
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
@@ -362,7 +362,7 @@ import (
     "os/signal"
     "time"
 
-    "github.com/gorilla/mux"
+    "github.com/Beeketing/mux"
 )
 
 func main() {
@@ -627,7 +627,7 @@ package main
 import (
     "net/http"
     "log"
-    "github.com/gorilla/mux"
+    "github.com/Beeketing/mux"
 )
 
 func YourHandler(w http.ResponseWriter, r *http.Request) {
